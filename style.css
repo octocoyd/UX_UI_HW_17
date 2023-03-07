@@ -1,0 +1,54 @@
+.element inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.element logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.element nav {
+    width: 73%;
+    padding: 1%;
+    background-color: #2D2D43;
+    position: absolute;
+    width: 1648px;
+    height: 100px;
+    left: 40px;
+    top: 227px;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    font-family: Roboto-mono;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #373738;
+}
+
+button {
+    background: #ED1E32;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 30px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 53px;
+}
