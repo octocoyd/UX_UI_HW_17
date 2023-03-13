@@ -1,43 +1,48 @@
-.element inline-block {
-    display: inline-block;
-    vertical-align: top;
-}
 
-.element logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-
-.element nav {
-    width: 73%;
-    padding: 1%;
-    background-color: #2D2D43;
-    position: absolute;
-    width: 1648px;
-    height: 100px;
-    left: 40px;
-    top: 227px;
+.inline-block {
+    margin: 0 auto;
+    color: white;
 }
 
 ul {
-    width: 50%;
-    margin-left: auto;
+    width: 75%;
     font-family: Roboto-mono;
+    outline: 1px solid red;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
 }
+
+li {
+    display: block;
+    width: 100px;
+    background-color: #2d2d43;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline;
+    float: left;
+    
+}
+
 
 .heroImg {
     height: 600px;
     padding: 25px;
+    outline: 1px solid red;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    padding: 25px;
+    outline: 1px solid red;
+    color: white;
 }
 
 .footer {
-    background-color: #373738;
+    background-color: #683143;
+    outline: 1px solid red;
 }
 
 button {
@@ -50,5 +55,18 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 53px;
+    text-align: center;
+    outline: 1px solid red;
+
+
+}
+
+button:hover {
+    background-color: rgb(1, 1, 1)
+}
+li:hover {
+    background-color: #252237;
+}
+li:active {
+    background-color:aqua;
 }
